@@ -71,8 +71,328 @@ span {
 }
 
 .swiper-slide-four {
-  background-color: #D4D6D6;
+  background-color: #cacece;
   justify-content: flex-end;
+}
+
+.swiper-slide-four svg {
+  width: 30%;
+  overflow: visible;
+}
+
+.swiper-slide-four svg>circle {
+  filter: drop-shadow(0px 0px 40px hsla(0, 10%, 10%, 0.15)) blur(0.5px);
+}
+
+.swiper-slide-four svg g circle:nth-child(1) {
+  filter: blur(8px);
+}
+
+.swiper-slide-four svg g circle:nth-child(2) {
+  filter: blur(4px);
+}
+
+.swiper-slide-four svg g circle:nth-child(3) {
+  filter: blur(2px);
+}
+
+.swiper-slide-four svg g circle:nth-child(4) {
+  filter: blur(0.5px);
+}
+
+.swiper-slide-four svg g#light-1 {
+  animation: light-1 2s alternate infinite linear;
+}
+.swiper-slide-four svg g#light-2 {
+  animation: light-2 2s alternate infinite linear;
+}
+.swiper-slide-four svg g#light-3 {
+  animation: light-3 2s alternate infinite linear;
+}
+.swiper-slide-four svg g#light-4 {
+  animation: light-4 2s alternate infinite linear;
+}
+.swiper-slide-four svg g#light-5 {
+  animation: light-5 2s alternate infinite linear;
+}
+.swiper-slide-four svg g#light-6 {
+  animation: light-6 2s alternate infinite linear;
+}
+.swiper-slide-four svg g#light-7 {
+  animation: light-7 2s alternate infinite linear;
+}
+.swiper-slide-four svg g#light-8 {
+  animation: light-8 2s alternate infinite linear;
+}
+
+@keyframes light-1 {
+  0% {
+    opacity: 1;
+  }
+  12.5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  32.5% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  62.5% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  82.5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes light-2 {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  32.5% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  62.5% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  82.5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes light-3 {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  32.5% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  62.5% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  82.5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes light-4 {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  32.5% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  62.5% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  82.5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes light-5 {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  32.5% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  62.5% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  82.5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes light-6 {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  32.5% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  62.5% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  82.5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes light-7 {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  32.5% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  62.5% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  82.5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes light-8 {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  32.5% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  62.5% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  82.5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes light-8 {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  32.5% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  62.5% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  82.5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
