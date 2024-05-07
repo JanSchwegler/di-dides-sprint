@@ -1,4 +1,5 @@
 @import url("https://use.typekit.net/ljw2cui.css");
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -30,12 +31,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 p, a, span {
   font-size: 1rem;
-  font-family: sans-serif;
-  font-weight: 600;
+  font-family: "Lexend Exa", sans-serif;
+  font-weight: 500;
 }
 
 span {
-  color: #888;
+  color: #aaa;
 }
 
 /* Animations */
@@ -440,22 +441,32 @@ span {
 
 .swiper-slide-two {
   background-image: url("images/img-slide-2.png");
-  background-position: 25% 5%;
+  background-position: 40% 5%;
 }
 
 .swiper-slide-three {
   background-image: url("images/img-slide-3.png");
+  background-position: 0% 5%;
 }
 
 .swiper-slide-four {
-  background-color: #cacece;
+  background-color: #e6e6e6;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 20vh 0 20px;
+}
+
+.swiper-slide-four h1, .swiper-slide-four p {
+  color: #333333;
+}
+
+.swiper-slide-four h1 {
+  transform: translateY(5vh);
 }
 
 /* Text Animations */
-.swiper-slide h1 {
+.swiper-slide:not(.swiper-slide-four) h1 {
   opacity: 0;
   transform: translateY(50px);
   transition-delay: 1.1s;
@@ -463,7 +474,7 @@ span {
   transition-timing-function: ease-out;
 }
 
-.swiper-slide.swiper-slide-active h1 {
+.swiper-slide:not(.swiper-slide-four).swiper-slide-active h1 {
   opacity: 1;
   transform: translateY(0px);
 }
@@ -547,4 +558,12 @@ span {
 }
 .swiper-slide-four svg g#light-9 {
   animation-name: light-9;
+}
+
+/* Responsive - Mobile */
+@media screen and (max-width: 767px) {
+  .swiper-slide-three {
+    background-image: url("images/img-slide-3.png");
+    background-position: 25% 5%;
+  }
 }
