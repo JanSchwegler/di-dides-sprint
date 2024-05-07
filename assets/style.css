@@ -40,6 +40,385 @@ span {
   color: #888;
 }
 
+/* Animations */
+@keyframes light-1 {
+  0% {
+    opacity: 1;
+  }
+  8.3333% {
+    opacity: 1;
+  }
+  16.6666% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  33.3333% {
+    opacity: 1;
+  }
+  41.6666% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  58.3333% {
+    opacity: 0;
+  }
+  66.6666% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  83.3333% {
+    opacity: 0;
+  }
+  91.6666% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes light-2 {
+  0% {
+    opacity: 0;
+  }
+  8.3333% {
+    opacity: 1;
+  }
+  16.6666% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  33.3333% {
+    opacity: 1;
+  }
+  41.6666% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  58.3333% {
+    opacity: 0;
+  }
+  66.6666% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  83.3333% {
+    opacity: 0;
+  }
+  91.6666% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes light-3 {
+  0% {
+    opacity: 0;
+  }
+  8.3333% {
+    opacity: 0;
+  }
+  16.6666% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  33.3333% {
+    opacity: 1;
+  }
+  41.6666% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  58.3333% {
+    opacity: 0;
+  }
+  66.6666% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  83.3333% {
+    opacity: 0;
+  }
+  91.6666% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes light-4 {
+  0% {
+    opacity: 0;
+  }
+  8.3333% {
+    opacity: 0;
+  }
+  16.6666% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  33.3333% {
+    opacity: 1;
+  }
+  41.6666% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  58.3333% {
+    opacity: 1;
+  }
+  66.6666% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  83.3333% {
+    opacity: 0;
+  }
+  91.6666% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes light-5 {
+  0% {
+    opacity: 0;
+  }
+  8.3333% {
+    opacity: 0;
+  }
+  16.6666% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  33.3333% {
+    opacity: 1;
+  }
+  41.6666% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  58.3333% {
+    opacity: 1;
+  }
+  66.6666% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  83.3333% {
+    opacity: 0;
+  }
+  91.6666% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes light-6 {
+  0% {
+    opacity: 0;
+  }
+  8.3333% {
+    opacity: 0;
+  }
+  16.6666% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  33.3333% {
+    opacity: 0;
+  }
+  41.6666% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  58.3333% {
+    opacity: 1;
+  }
+  66.6666% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  83.3333% {
+    opacity: 0;
+  }
+  91.6666% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes light-7 {
+  0% {
+    opacity: 0;
+  }
+  8.3333% {
+    opacity: 0;
+  }
+  16.6666% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  33.3333% {
+    opacity: 0;
+  }
+  41.6666% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  58.3333% {
+    opacity: 1;
+  }
+  66.6666% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  83.3333% {
+    opacity: 1;
+  }
+  91.6666% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes light-8 {
+  0% {
+    opacity: 0;
+  }
+  8.3333% {
+    opacity: 0;
+  }
+  16.6666% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  33.3333% {
+    opacity: 0;
+  }
+  41.6666% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  58.3333% {
+    opacity: 1;
+  }
+  66.6666% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  83.3333% {
+    opacity: 1;
+  }
+  91.6666% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes light-9 {
+  0% {
+    opacity: 0;
+  }
+  8.3333% {
+    opacity: 0;
+  }
+  16.6666% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  33.3333% {
+    opacity: 0;
+  }
+  41.6666% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  58.3333% {
+    opacity: 0;
+  }
+  66.6666% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  83.3333% {
+    opacity: 1;
+  }
+  91.6666% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* Swiper */
 .swiper-container, .swiper-wrapper {
   width: 100%;
@@ -72,12 +451,16 @@ span {
 
 .swiper-slide-four {
   background-color: #cacece;
-  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .swiper-slide-four svg {
-  width: 30%;
+  max-width: 30%;
+  max-height: 40%;
   overflow: visible;
+  align-self: center;
 }
 
 .swiper-slide-four svg>circle {
@@ -100,299 +483,40 @@ span {
   filter: blur(0.5px);
 }
 
+.swiper-slide-four svg g {
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
 .swiper-slide-four svg g#light-1 {
-  animation: light-1 2s alternate infinite linear;
+  animation-name: light-1;
 }
-.swiper-slide-four svg g#light-2 {
-  animation: light-2 2s alternate infinite linear;
+.swiper-slide-four svg g#light-2, .swiper-slide-four svg g#light-16 {
+  animation-name: light-2;
 }
-.swiper-slide-four svg g#light-3 {
-  animation: light-3 2s alternate infinite linear;
+.swiper-slide-four svg g#light-3, .swiper-slide-four svg g#light-15 {
+  animation-name: light-3;
 }
-.swiper-slide-four svg g#light-4 {
-  animation: light-4 2s alternate infinite linear;
+.swiper-slide-four svg g#light-4, .swiper-slide-four svg g#light-14 {
+  animation-name: light-4;
 }
-.swiper-slide-four svg g#light-5 {
-  animation: light-5 2s alternate infinite linear;
+.swiper-slide-four svg g#light-5, .swiper-slide-four svg g#light-13 {
+  animation-name: light-5;
 }
-.swiper-slide-four svg g#light-6 {
-  animation: light-6 2s alternate infinite linear;
+.swiper-slide-four svg g#light-6, .swiper-slide-four svg g#light-12 {
+  animation-name: light-6;
 }
-.swiper-slide-four svg g#light-7 {
-  animation: light-7 2s alternate infinite linear;
+.swiper-slide-four svg g#light-7, .swiper-slide-four svg g#light-11 {
+  animation-name: light-7;
 }
-.swiper-slide-four svg g#light-8 {
-  animation: light-8 2s alternate infinite linear;
+.swiper-slide-four svg g#light-8, .swiper-slide-four svg g#light-10 {
+  animation-name: light-8;
 }
-
-@keyframes light-1 {
-  0% {
-    opacity: 1;
-  }
-  12.5% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 1;
-  }
-  32.5% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 1;
-  }
-  62.5% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 0;
-  }
-  82.5% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes light-2 {
-  0% {
-    opacity: 0;
-  }
-  12.5% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 1;
-  }
-  32.5% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 1;
-  }
-  62.5% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 0;
-  }
-  82.5% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes light-3 {
-  0% {
-    opacity: 0;
-  }
-  12.5% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 1;
-  }
-  32.5% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 1;
-  }
-  62.5% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 1;
-  }
-  82.5% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes light-4 {
-  0% {
-    opacity: 0;
-  }
-  12.5% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0;
-  }
-  32.5% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 1;
-  }
-  62.5% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 1;
-  }
-  82.5% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes light-5 {
-  0% {
-    opacity: 0;
-  }
-  12.5% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0;
-  }
-  32.5% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  62.5% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 1;
-  }
-  82.5% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes light-6 {
-  0% {
-    opacity: 0;
-  }
-  12.5% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0;
-  }
-  32.5% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  62.5% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 1;
-  }
-  82.5% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes light-7 {
-  0% {
-    opacity: 0;
-  }
-  12.5% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0;
-  }
-  32.5% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  62.5% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 1;
-  }
-  82.5% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes light-8 {
-  0% {
-    opacity: 0;
-  }
-  12.5% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0;
-  }
-  32.5% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  62.5% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 0;
-  }
-  82.5% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes light-8 {
-  0% {
-    opacity: 0;
-  }
-  12.5% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0;
-  }
-  32.5% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  62.5% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 0;
-  }
-  82.5% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.swiper-slide-four svg g#light-9 {
+  animation-name: light-9;
 }
 
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
