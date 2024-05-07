@@ -562,6 +562,10 @@ span {
 
 /* Responsive - Mobile */
 @media screen and (max-width: 767px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
   .swiper-slide-three {
     background-image: url("images/img-slide-3.png");
     background-position: 25% 5%;
