@@ -1,7 +1,4 @@
-@font-face {
-  font-family: ethnocentric;
-  src: url("https://use.typekit.net/ljw2cui.css");
-}
+@import url("https://use.typekit.net/ljw2cui.css");
 
 * {
   box-sizing: border-box;
@@ -20,6 +17,7 @@ a {
 /* Font */
 h1, h2, h3, h4, h5, h6, p, a, span, section, main, div {
   font-family: ethnocentric, sans-serif;
+  font-style: normal;
   font-size: 3rem;
   font-weight: 400;
   text-align: center;
@@ -470,6 +468,22 @@ span {
   transform: translateY(0px);
 }
 
+/* Startanimation */
+.swiper-wrapper.start-animation {
+  animation: 1.5s start-animation cubic-bezier(0.7, 0, 0.5, 1);
+}
+
+@keyframes start-animation {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
 
 /* SVG */
 .swiper-slide-four svg {
@@ -533,14 +547,4 @@ span {
 }
 .swiper-slide-four svg g#light-9 {
   animation-name: light-9;
-}
-
-/* Buttons */
-.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
-  background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2027%2044%27%3E%3Cpath%20d%3D%27M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z%27%20fill%3D%27%23000%27%2F%3E%3C%2Fsvg%3E);
-  left: 1.5rem;
-}
-.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
-  background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2027%2044%27%3E%3Cpath%20d%3D%27M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z%27%20fill%3D%27%23000%27%2F%3E%3C%2Fsvg%3E);
-  right: 1.5rem;
 }
