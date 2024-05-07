@@ -439,14 +439,26 @@ span {
   background-size: cover;
 }
 
+.swiper-slide-one h1 {
+  padding-top: 13vh;
+}
+
 .swiper-slide-two {
   background-image: url("images/img-slide-2.png");
   background-position: 40% 5%;
 }
 
+.swiper-slide-two h1 {
+  padding-top: 18vh;
+}
+
 .swiper-slide-three {
   background-image: url("images/img-slide-3.png");
   background-position: 0% 5%;
+}
+
+.swiper-slide-three h1 {
+  padding-top: 25vh;
 }
 
 .swiper-slide-four {
