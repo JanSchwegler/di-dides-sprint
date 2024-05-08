@@ -36,7 +36,7 @@ p, a, span {
 }
 
 span {
-  color: #aaa;
+  color: #8b8b8b;
 }
 
 /* Animations */
@@ -440,33 +440,33 @@ span {
 }
 
 .swiper-slide-one h1 {
-  padding-top: 13vh;
+  padding-top: 26.2vh;
 }
 
 .swiper-slide-two {
   background-image: url("images/img-slide-2.webp");
-  background-position: 40% 5%;
+  background-position: 45% 5%;
 }
 
 .swiper-slide-two h1 {
-  padding-top: 18vh;
+  padding-top: 27vh;
 }
 
 .swiper-slide-three {
   background-image: url("images/img-slide-3.webp");
-  background-position: 0% 5%;
+  background-position: 0% 45%;
 }
 
 .swiper-slide-three h1 {
-  padding-top: 25vh;
+  padding-top: 28vh;
 }
 
 .swiper-slide-four {
-  background-color: #e6e6e6;
+  background-color: #bdbdbd;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20vh 0 20px;
+  padding: 25vh 0 20px;
 }
 
 .swiper-slide-four h1, .swiper-slide-four p {
@@ -577,7 +577,15 @@ span {
   h1 {
     font-size: 1.6rem;
   }
-
+  .swiper-slide-one h1 {
+    padding-top: 29vh;
+  }
+  .swiper-slide-two h1 {
+    padding-top: 29vh;
+  }
+  .swiper-slide-three h1 {
+    padding-top: 33vh;
+  }
   .swiper-slide-three {
     background-position: 25% 5%;
   }
