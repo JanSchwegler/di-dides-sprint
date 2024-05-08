@@ -578,15 +578,15 @@ span {
     font-size: 1.6rem;
   }
   .swiper-slide-one h1 {
-    padding-top: 29vh;
+    padding-top: 27vh;
   }
   .swiper-slide-two h1 {
-    padding-top: 29vh;
+    padding-top: 28vh;
   }
   .swiper-slide-three h1 {
-    padding-top: 33vh;
+    padding-top: 31vh;
   }
   .swiper-slide-three {
-    background-position: 25% 5%;
+    background-position: 34% 5%;
   }
 }
